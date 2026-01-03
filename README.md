@@ -32,3 +32,15 @@ A professional IoT project using the **Maduino Zero** with **4G LTE** connectivi
 1. Install Python dependencies:
 ```bash
 pip install -r requirements.txt
+Run server:
+
+bash
+Copier le code
+python app.py
+Server will start at http://localhost:5000
+
+Endpoints:
+
+/update_location?lat=...&lng=... → receives data from Maduino
+
+/view_data → view all vehicle logs
