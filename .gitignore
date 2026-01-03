@@ -1,0 +1,34 @@
+# ---------------------------
+# Python / Server
+# ---------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+.env
+*.sqlite
+*.db
+orientation_model.pkl
+data/vehicle_data.csv
+
+# ---------------------------
+# Arduino / Firmware
+# ---------------------------
+*.bin
+*.elf
+*.hex
+*.eep
+*.map
+*.o
+*.d
+
+# IDE / Editor
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Mac / OS
+.DS_Store
+Thumbs.db
