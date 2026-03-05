@@ -43,4 +43,12 @@ Endpoints:
 
 /update_location?lat=...&lng=... → receives data from Maduino
 
+---
+## Features
+- Collect GPS coordinates from vehicle.
+- Send data via 4G LTE to a Python Flask server.
+- Server stores vehicle location in CSV.
+- Real-time monitoring of vehicle positions.
+- Can be extended to a web map visualization.
+
 /view_data → view all vehicle logs
